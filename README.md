@@ -2,7 +2,7 @@
 
 ```javascript
 
-var video = document.querySelectorAll('.html5-main-video')[0];
+var video = document.querySelector('.html5-main-video');
 
 var speed = document.createElement('input');
 speed.setAttribute('class','speed');
